@@ -19,7 +19,6 @@ import GamingHighlights from '@/components/sections/gaming-highlights';
 import RelatedSearches from '@/components/sections/related-searches';
 import AlphabeticalSearch from '@/components/sections/alphabetical-search';
 import Footer from '@/components/sections/footer';
-import CookieConsentBanner from '@/components/sections/cookie-consent-banner';
 
 export default function Home() {
   return (
@@ -95,7 +94,6 @@ export default function Home() {
       </main>
       
       <Footer />
-      <CookieConsentBanner />
     </div>
   );
 }
